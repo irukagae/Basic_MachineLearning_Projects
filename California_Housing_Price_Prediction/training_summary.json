@@ -1,0 +1,18 @@
+{
+    "input_file": "D:\\Basic_MachineLearning_Projects\\California_Housing_Price_Prediction\\housing.csv",
+    "rows_after_deduplication": 20640,
+    "feature_count": 9,
+    "target": "median_house_value",
+    "best_model": "Hist Gradient Boosting",
+    "selection_metric": "RMSE (lower is better)",
+    "best_model_metrics": {
+        "MAE": 31102.335843596342,
+        "MSE": 2086964299.0712578,
+        "RMSE": 45683.304379951085,
+        "R2": 0.8438474485005915
+    },
+    "model_artifact": "D:\\Basic_MachineLearning_Projects\\California_Housing_Price_Prediction\\best_housing_model.joblib",
+    "comparison_csv": "D:\\Basic_MachineLearning_Projects\\California_Housing_Price_Prediction\\model_comparison.csv",
+    "test_size": 0.2,
+    "random_state": 42
+}
